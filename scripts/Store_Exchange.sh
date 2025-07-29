@@ -1,6 +1,7 @@
  #!/bin/bash
-export PYTHONPATH=/mnt/d/Monaf/Personal/Time_series_forecasting/Time-Series-Forecasting:$PYTHONPATH
+export PYTHONPATH=/mnt/d/Monaf/Personal/Time_series_forecasting/T3Time:$PYTHONPATH
 export CUDA_VISIBLE_DEVICES=0
+mkdir -p ./Results/emb_logs/
 data_paths=("exchange_rate")
 divides=("train" "val" "test")
 num_nodes=8

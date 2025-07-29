@@ -1,5 +1,5 @@
 #!/bin/bash
-export PYTHONPATH=/mnt/d/Monaf/Personal/Time_series_forecasting/Time-Series-Forecasting:$PYTHONPATH
+export PYTHONPATH=/mnt/d/Monaf/Personal/Time_series_forecasting/T3Time:$PYTHONPATH
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 export CUDA_VISIBLE_DEVICES=0
 

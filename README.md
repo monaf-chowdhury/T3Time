@@ -33,6 +33,9 @@ Multivariate time series forecasting (MTSF) seeks to model temporal dynamics amo
 
 ```bash
 > conda env create -f env_windows.yaml
+> conda install anaconda::h5py=3.12.1
+# > conda install conda-forge::transformers=4.51.3
+> pip install transformers==4.51.3
 ```
 
 ## Datasets
