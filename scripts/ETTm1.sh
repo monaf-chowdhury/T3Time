@@ -84,7 +84,8 @@ learning_rate=1e-4
 channel=64
 e_layer=2
 d_layer=2
-dropout_n=0.3
+dropout_n=0.7
+batch_size=16
 
 log_file="${log_path}i${seq_len}_o${pred_len}_lr${learning_rate}_c${channel}_el${e_layer}_dl${d_layer}_dn${dropout_n}_bs${batch_size}.log"
 nohup python train.py \
